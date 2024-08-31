@@ -4,9 +4,6 @@ console.log("开始启动...")
 const fs = require("fs")
 const conf = require("./config")
 const events = require("./events")
-const command = require("./command")
-const Logger = require("./logger")
-const logger = new Logger("main")
 
 /**
  * 加载并排序模块
